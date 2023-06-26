@@ -20,10 +20,7 @@ model_n_ctx = os.environ.get('MODEL_N_CTX')
 model_n_batch = int(os.environ.get('MODEL_N_BATCH',8))
 target_source_chunks = int(os.environ.get('TARGET_SOURCE_CHUNKS',4))
 
-print(model_type)
-
-# from constants import CHROMA_SETTINGS
-from privateGPT.constants import CHROMA_SETTINGS
+from constants import CHROMA_SETTINGS
 
 def main():
     # Parse the command line arguments
@@ -44,42 +41,30 @@ def main():
             raise Exception(f"Model type {model_type} is not supported. Please choose one of the following: LlamaCpp, GPT4All")
         
     qa = RetrievalQA.from_chain_type(llm=llm, chain_type="stuff", retriever=retriever, return_source_documents= not args.hide_source)
-    # Open 'data.txt' file in append mode
-    with open('data.txt', 'a') as f:
-        # Interactive questions and answers
-        while True:
-            query = input("\nEnter a query: ")
-            if query == "exit":
-                break
-            if query.strip() == "":
-                continue
+    # Interactive questions and answers
+    while True:
+        query = input("\nEnter a query: ")
+        if query == "exit":
+            break
+        if query.strip() == "":
+            continue
 
-            # Get the answer from the chain
-            start = time.time()
-            res = qa(query)
-            answer, docs = res['result'], [] if args.hide_source else res['source_documents']
-            end = time.time()
+        # Get the answer from the chain
+        start = time.time()
+        res = qa(query)
+        answer, docs = res['result'], [] if args.hide_source else res['source_documents']
+        end = time.time()
 
-            # Write the input and output to the file
-            f.write("\n\n> Question:\n")
-            f.write(query)
-            f.write(f"\n\n> Answer (took {round(end - start, 2)} s.):\n")
-            f.write(answer)
+        # Print the result
+        print("\n\n> Question:")
+        print(query)
+        print(f"\n> Answer (took {round(end - start, 2)} s.):")
+        print(answer)
 
-            # Print the result
-            print("\n\n> Question:")
-            print(query)
-            print(f"\n> Answer (took {round(end - start, 2)} s.):")
-            print(answer)
-
-            # Write the relevant sources used for the answer to the file
-            for document in docs:
-                f.write("\n> " + document.metadata["source"] + ":\n")
-                f.write(document.page_content)
-                # Print the relevant sources used for the answer
-                print("\n> " + document.metadata["source"] + ":")
-                print(document.page_content)
-
+        # Print the relevant sources used for the answer
+        for document in docs:
+            print("\n> " + document.metadata["source"] + ":")
+            print(document.page_content)
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description='privateGPT: Ask questions to your documents without an internet connection, '
