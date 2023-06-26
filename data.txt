@@ -1,0 +1,161 @@
+
+
+> Question:
+What is this document?
+
+> Answer (took 162.03 s.):
+ The provided context does not contain a single word from the question, let alone any indication of what it might refer to or be related with.
+> source_documents/state_of_the_union.txt:
+It’s based on DARPA—the Defense Department project that led to the Internet, GPS, and so much more.  
+
+ARPA-H will have a singular purpose—to drive breakthroughs in cancer, Alzheimer’s, diabetes, and more. 
+
+A unity agenda for the nation. 
+
+We can do this. 
+
+My fellow Americans—tonight , we have gathered in a sacred space—the citadel of our democracy. 
+
+In this Capitol, generation after generation, Americans have debated great questions amid great strife, and have done great things.
+> source_documents/state_of_the_union.txt:
+We have fought for freedom, expanded liberty, defeated totalitarianism and terror. 
+
+And built the strongest, freest, and most prosperous nation the world has ever known. 
+
+Now is the hour. 
+
+Our moment of responsibility. 
+
+Our test of resolve and conscience, of history itself. 
+
+It is in this moment that our character is formed. Our purpose is found. Our future is forged. 
+
+Well I know this nation.  
+
+We will meet the test.
+> source_documents/state_of_the_union.txt:
+Madam Speaker, Madam Vice President, our First Lady and Second Gentleman. Members of Congress and the Cabinet. Justices of the Supreme Court. My fellow Americans.  
+
+Last year COVID-19 kept us apart. This year we are finally together again. 
+
+Tonight, we meet as Democrats Republicans and Independents. But most importantly as Americans. 
+
+With a duty to one another to the American people to the Constitution. 
+
+And with an unwavering resolve that freedom will always triumph over tyranny.
+> source_documents/state_of_the_union.txt:
+The U.S. Department of Justice is assembling a dedicated task force to go after the crimes of Russian oligarchs.  
+
+We are joining with our European allies to find and seize your yachts your luxury apartments your private jets. We are coming for your ill-begotten gains.
+
+> Question:
+Who is the speaker in the document?
+
+> Answer (took 137.52 s.):
+ The title and description do not explicitly state what "the" refers to - it's unclear whether they are referring specifically to someone named Speaker or more generally as a figurehead representing all those mentioned, including Presidents past and present who have served.
+> source_documents/state_of_the_union.txt:
+Madam Speaker, Madam Vice President, our First Lady and Second Gentleman. Members of Congress and the Cabinet. Justices of the Supreme Court. My fellow Americans.  
+
+Last year COVID-19 kept us apart. This year we are finally together again. 
+
+Tonight, we meet as Democrats Republicans and Independents. But most importantly as Americans. 
+
+With a duty to one another to the American people to the Constitution. 
+
+And with an unwavering resolve that freedom will always triumph over tyranny.
+> source_documents/state_of_the_union.txt:
+A former top litigator in private practice. A former federal public defender. And from a family of public school educators and police officers. A consensus builder. Since she’s been nominated, she’s received a broad range of support—from the Fraternal Order of Police to former judges appointed by Democrats and Republicans. 
+
+And if we are to advance liberty and justice, we need to secure the Border and fix the immigration system.
+> source_documents/state_of_the_union.txt:
+Tonight, I’d like to honor someone who has dedicated his life to serve this country: Justice Stephen Breyer—an Army veteran, Constitutional scholar, and retiring Justice of the United States Supreme Court. Justice Breyer, thank you for your service. 
+
+One of the most serious constitutional responsibilities a President has is nominating someone to serve on the United States Supreme Court.
+> source_documents/state_of_the_union.txt:
+And I did that 4 days ago, when I nominated Circuit Court of Appeals Judge Ketanji Brown Jackson. One of our nation’s top legal minds, who will continue Justice Breyer’s legacy of excellence.
+
+> Question:
+who are the people mentioned in the text?
+
+> Answer (took 154.47 s.):
+ The information provided does not mention any specific groups of citizens or individuals that "blocked tanks with [their] bodies." It mainly talks about a former top litigator and government public defender as well as an ambassador, president-elect Zelenskyy.
+> source_documents/state_of_the_union.txt:
+Madam Speaker, Madam Vice President, our First Lady and Second Gentleman. Members of Congress and the Cabinet. Justices of the Supreme Court. My fellow Americans.  
+
+Last year COVID-19 kept us apart. This year we are finally together again. 
+
+Tonight, we meet as Democrats Republicans and Independents. But most importantly as Americans. 
+
+With a duty to one another to the American people to the Constitution. 
+
+And with an unwavering resolve that freedom will always triumph over tyranny.
+> source_documents/state_of_the_union.txt:
+A former top litigator in private practice. A former federal public defender. And from a family of public school educators and police officers. A consensus builder. Since she’s been nominated, she’s received a broad range of support—from the Fraternal Order of Police to former judges appointed by Democrats and Republicans. 
+
+And if we are to advance liberty and justice, we need to secure the Border and fix the immigration system.
+> source_documents/state_of_the_union.txt:
+Groups of citizens blocking tanks with their bodies. Everyone from students to retirees teachers turned soldiers defending their homeland. 
+
+In this struggle as President Zelenskyy said in his speech to the European Parliament “Light will win over darkness.” The Ukrainian Ambassador to the United States is here tonight. 
+
+Let each of us here tonight in this Chamber send an unmistakable signal to Ukraine and to the world.
+> source_documents/state_of_the_union.txt:
+Six days ago, Russia’s Vladimir Putin sought to shake the foundations of the free world thinking he could make it bend to his menacing ways. But he badly miscalculated. 
+
+He thought he could roll into Ukraine and the world would roll over. Instead he met a wall of strength he never imagined. 
+
+He met the Ukrainian people. 
+
+From President Zelenskyy to every Ukrainian, their fearlessness, their courage, their determination, inspires the world.
+
+> Question:
+give me a synposis of this document
+
+> Answer (took 178.02 s.):
+ The given context does not contain any specific document or text that needs to be summarized in order to answer the question "What was on display at the Unity Agenda?" However, it appears to refer specifically
+> source_documents/state_of_the_union.txt:
+It’s based on DARPA—the Defense Department project that led to the Internet, GPS, and so much more.  
+
+ARPA-H will have a singular purpose—to drive breakthroughs in cancer, Alzheimer’s, diabetes, and more. 
+
+A unity agenda for the nation. 
+
+We can do this. 
+
+My fellow Americans—tonight , we have gathered in a sacred space—the citadel of our democracy. 
+
+In this Capitol, generation after generation, Americans have debated great questions amid great strife, and have done great things.
+> source_documents/state_of_the_union.txt:
+We have fought for freedom, expanded liberty, defeated totalitarianism and terror. 
+
+And built the strongest, freest, and most prosperous nation the world has ever known. 
+
+Now is the hour. 
+
+Our moment of responsibility. 
+
+Our test of resolve and conscience, of history itself. 
+
+It is in this moment that our character is formed. Our purpose is found. Our future is forged. 
+
+Well I know this nation.  
+
+We will meet the test.
+> source_documents/state_of_the_union.txt:
+Madam Speaker, Madam Vice President, our First Lady and Second Gentleman. Members of Congress and the Cabinet. Justices of the Supreme Court. My fellow Americans.  
+
+Last year COVID-19 kept us apart. This year we are finally together again. 
+
+Tonight, we meet as Democrats Republicans and Independents. But most importantly as Americans. 
+
+With a duty to one another to the American people to the Constitution. 
+
+And with an unwavering resolve that freedom will always triumph over tyranny.
+> source_documents/state_of_the_union.txt:
+And soon, we’ll strengthen the Violence Against Women Act that I first wrote three decades ago. It is important for us to show the nation that we can come together and do big things. 
+
+So tonight I’m offering a Unity Agenda for the Nation. Four big things we can do together.  
+
+First, beat the opioid epidemic. 
+
+There is so much we can do. Increase funding for prevention, treatment, harm reduction, and recovery.
