@@ -56,8 +56,8 @@ def main():
         statement = file.read()
         st.write(statement)
 
-    SystemExit()
-    gfg
+
+
     
     # Set verbose to be true
     agent.chain.verbose = True
@@ -71,14 +71,17 @@ def main():
     4. Write the statement of facts.
     """
 
-    # Run the agent
-    agent.run([prompt])
+    # Add a button that the user can press to generate the statement
+    if st.button('Generate Statement of Facts'):
+        # Run the agent
+        agent.run([prompt])
 
-    # Display the generated statement of facts
-    st.subheader("Generated Statement of Facts")
-    with open("statement_of_facts.txt", "r") as file:
-        statement = file.read()
-        st.write(statement)
+        # Display the generated statement of facts
+        st.subheader("Generated Statement of Facts")
+        with open("statement_of_facts.txt", "r") as file:
+            statement = file.read()
+            st.write(statement)
+
 
 
 if __name__ == "__main__":
