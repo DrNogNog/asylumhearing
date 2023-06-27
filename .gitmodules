@@ -1,3 +1,0 @@
-[submodule "some_other_path/privateGPT"]
-	path = some_other_path/privateGPT
-	url = https://github.com/imartinez/privateGPT.git

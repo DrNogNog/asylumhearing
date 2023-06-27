@@ -20,7 +20,18 @@ model_n_ctx = os.environ.get('MODEL_N_CTX')
 model_n_batch = int(os.environ.get('MODEL_N_BATCH',8))
 target_source_chunks = int(os.environ.get('TARGET_SOURCE_CHUNKS',4))
 
-print(model_type)
+
+# convert to integer if not None
+if model_n_batch is not None:
+    model_n_batch = int(model_n_batch)
+if target_source_chunks is not None:
+    target_source_chunks = int(target_source_chunks)
+
+variables = [embeddings_model_name, persist_directory, model_type, model_path, model_n_ctx, model_n_batch, target_source_chunks]
+
+for var in variables:
+    if var is None:
+        raise EnvironmentError("One or more environment variables are None.")
 
 # from constants import CHROMA_SETTINGS
 from privateGPT.constants import CHROMA_SETTINGS
